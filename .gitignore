@@ -1,0 +1,6 @@
+testbox/*
+coldbox/*
+modules/*
+testbox/*
+
+*.DS_Store

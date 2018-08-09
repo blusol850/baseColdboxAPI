@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "893e3460-4ef4-4ba9-915e-3635b32a8355",
+		"name": "API-BASE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"_postman_id": "b7132bb5-73e2-4106-b0a8-875b6c224ce9",
+			"name": "api/orders",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIbWFjU0hBNTEyIn0.eyJJRCI6MTAwLCJOYW1lIjoiQW5kcmV3IERhdmlzIiwiZU1haWwiOiJhbmRyZXdAYmx1ZXdhdGVyc29sdXRpb25zLmNvbSJ9.RHwRtpP7uAXwuNC86hliCiaFIaATVXBcx4kWQtRecfqL7KTsedcdNcrjYxPPpTux52MEfa0NzYHHVg-qHgD0_Q",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://127.0.0.1:9999/api/orders",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
